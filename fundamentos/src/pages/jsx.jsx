@@ -1,3 +1,5 @@
+import Layout from "../components/Layout"
+
 export default function Jsx(){
     
     //Código de js puro
@@ -15,21 +17,23 @@ export default function Jsx(){
     
     //Código não puro de js
     return (
-        <div>
-            <h1>JSX - Conceito Central</h1>
+        <Layout title="Integração de JavaScript e JSX">
+            <div>
+                <h1>JSX - Conceito Central</h1>
 
-            {/*Interpolando código js*/}
-            {a * b}
+                {/*Interpolando código js*/}
+                {a * b}
 
-            <h2>{"muito legal".toUpperCase()}</h2>
+                <h2>{"muito legal".toUpperCase()}</h2>
 
-            <p>
-                {JSON.stringify({nome: 'Ana', idade: 20})}
-            </p>
+                <p>
+                    {JSON.stringify({nome: 'Ana', idade: 20})}
+                </p>
 
-            {h3}
+                {h3}
 
-            {titulo4()}
-        </div>
+                {titulo4()}
+            </div>
+        </Layout>
     )
 }
