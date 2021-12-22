@@ -1,0 +1,10 @@
+.roxo{
+    height: 100vh;
+    background-color: #670bbd;
+    color: #fff;
+}
+
+/*Um seletor css deve seguir de uma classe ou um id para que não funcione globalmente na página*/
+.roxo h1{
+    margin: 0;
+}
